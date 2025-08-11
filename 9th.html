@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <!-- iframe elements represented as nested browsing context  -->
+    <iframe src="https://www.instagram.com/" title="Instagram" height="200" width="400"></iframe>
+    <!-- the way of writing different file paths ara: -->
+        <!-- this file path represent that this file path located in same folder as the current page -->
+    <img src="one.webp" height="200" width="300">
+        <!-- this file path represent that this file is located in images folder in the current folder  -->
+    <img src="images/two.webp" height="200" width="300">
+        <!-- this file path represent that this file is located in the images folder at the root of the current web  -->
+    <img src="/images/two.webp" height="200" width="300">
+        <!-- this file path represent that this file is located in the folder one level up from the current folder  -->
+    <img src="../one.webp" height="200" width="300">
+</body>
+</html> 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!-- proper input  -->
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <br><br>
+
+        <label for="phonenumber">Phone Number:</label>
+        <input type="text" id="phonenumber" name="phonenumber"><br><br>
+        <label for="email">Email id.:</label>
+        <input type="text" id="email" name="email">
+
+
+        <!-- for selecting anyone element from more than one elements  -->
+        <p>Choose your fav language:</p>
+        <input type="radio" id="html" name="one">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="one">
+        <label for="css">CSS</label><br>
+
+        <!-- for selecting multiple elements   -->
+        <p>Your favourite indian cricketers</p>
+        <input type="checkbox" id="p1">
+        <label for="p1">MS dhoni</label><br>
+        <input type="checkbox" id="p2">
+        <label for="p2">Virat kohli</label><br>
+        <input type="checkbox" id="p3">
+        <label for="p3">Hardik pandey</label><br>
+        <input type="checkbox" id="p4">
+        <label for="p4">Bumraha</label><br><br>
+        
+        
+        <textarea name="message" rows="10" cols="10">
+        Description
+        </textarea>
+        <br><br>
+        
+        <label for="cars">Select a car</label>
+        <select id="cars" size="4" multiple>
+            <option>BMW</option>
+            <option>Rolls Royce</option>
+            <option>Range Rover</option>
+            <option>Audi</option>
+            <option>Mercedes</option>
+            <option>Lamborgini</option>
+            <option>ferari</option>
+        </select>
+        <br><br>
+        <button type="button">Click</button><br><br>
+
+        <input type="submit" value="Login">
+
+       
+    </form>
+
+
+    
+</body>
+</html>
