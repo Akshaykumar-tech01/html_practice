@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <!-- style tag is used for styling table  -->
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Table tag is used for starting tables -->
+    <table style="width: 100%;">
+        <!-- tr tag is used for starting each table row  -->
+        <tr>
+            <!-- th tag is used for table headings -->
+            <th>Roll No.</th>
+            <th>Student Name</th>
+            <th>percentage(%)</th>
+        </tr>
+        <tr>
+            <!-- td tag is used for defining table  -->
+            <td>10</td>
+            <td>Akshay</td>
+            <td>95%</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Aryan</td>
+            <td>96%</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Aman</td>
+            <td>92%</td>
+        </tr>
+        
+    </table>
+<br>
+<br>
+    <table style="width: 100%;">
+        <tr>
+            <th>First name</th>
+            <td>Akshay</td>
+            <td>Aryan</td>
+            <td>Aman</td>
+        </tr>
+        <tr>
+            <th>Last name</th>
+            <td>Rana</td>
+            <td>Chauhan</td>
+            <td>Kumar</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <!-- colspan is used to join 2 coloumns -->
+            <th colspan="2"> Name</th>
+            <!-- <th>Last name</th> -->
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Akshay </td>
+            <td>Rana</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>Kumar</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Aryan</td>
+            <td>Chauhan</td>
+            <td>21</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <!-- colspan is used to join 2 coloumns -->
+            <th rowspan=>Fisrt Name</th>
+            <td>Aryan</td>
+            <td>Akshay</td>
+        </tr>
+        <tr>
+            <!-- rowspan is used for join 2 rows  -->
+            <th rowspan="2">Last name </th>
+            <td>Rana</td>
+            <td>Chauhan</td>
+        </tr>
+        <tr>
+            <!-- <th>Age</th> -->
+            <td>20</td>
+            <td>19</td>
+        </tr>
+    
+    </table>
+
+    
+
+    
+
+
+
+    
+</body>
+</html>
